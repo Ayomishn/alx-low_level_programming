@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * print_alphabet - prints the alphabet in lowercase with nexw line at the end
  */
+
 void print_alphabet(void)
-
 {
+	char alpha;
 
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		_putchar(c);
+		_putchar(alpha);
 	}
 	_putchar('\n');
 }
